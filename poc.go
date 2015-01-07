@@ -1,7 +1,7 @@
 package poc
 
 import "io"
-import . "github.com/nowk/go-calm"
+import . "gopkg.in/nowk/go-calm.v1"
 
 // Poc is a struct around a single channel that gets written to and read from
 // synchronously. Similar to io.Pipe but on a single channel.

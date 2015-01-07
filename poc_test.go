@@ -1,7 +1,7 @@
 package poc
 
 import "testing"
-import "github.com/nowk/assert"
+import "gopkg.in/nowk/assert.v2"
 
 func TestPoc(t *testing.T) {
 	p := New()
